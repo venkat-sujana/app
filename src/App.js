@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Home from "./Home";
+import Contact from "./Contact";
 function App() {
   return (
     <div className="App">
@@ -8,6 +9,7 @@ function App() {
       {/* Add some comments to explain what this component does. */}
       {/* TODO: Add a link to the GitHub repo. */}
       <Home/>
+      <Contact/>
     </div>
   );
 }
