@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Home from "./Home";
 import Contact from "./Contact";
+import About from "./About";
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       {/* TODO: Add a link to the GitHub repo. */}
       <Home/>
       <Contact/>
+      <About/>
     </div>
   );
 }
