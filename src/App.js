@@ -6,7 +6,9 @@ import Contact from "./Contact";
 import About from "./About";
 import Service from "./Service";
 import Navbar from "./Navbar";
+
 function App() {
+ 
   return (
     <div className="App">
       
@@ -19,6 +21,7 @@ function App() {
         <Route path="/service" element={<Service/>} />
         </Routes>
       </BrowserRouter>
+      
     </div>
   );
 }
